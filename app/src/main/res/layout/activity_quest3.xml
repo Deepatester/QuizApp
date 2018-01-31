@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/question1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    android:background="#D7CCC8"
+    tools:context="com.example.android.quizapp.Quest3">
+
+    <TextView
+        android:id="@+id/Ques2que1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Q2Tag"
+        android:layout_margin="22dp"
+        android:textColor="@android:color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/Ques2Actualquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Q2"
+        android:layout_margin="22dp"
+        android:layout_below="@id/Ques2que1"
+        android:textColor="@android:color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/Ques2Answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AnsTag"
+        android:layout_below="@id/Ques2Actualquestion"
+        android:layout_margin="22dp"
+        android:textColor="@android:color/black"
+
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgGroup2"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/Ques2Answer">
+
+    <RadioButton
+        android:id="@+id/Ques2answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:text="@string/Q2Ans1"
+        android:onClick="rbClick2"/>
+
+    <RadioButton
+        android:id="@+id/Ques2answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:text="@string/Q2Ans2"
+        android:onClick="rbClick2"/>
+
+    <RadioButton
+        android:id="@+id/Ques2answer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:text="@string/Q2Ans3"
+        android:onClick="rbClick2"
+               />
+
+    <RadioButton
+        android:id="@+id/Ques2answer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:text="@string/Q2Ans4"
+        android:onClick="rbClick2"
+      />
+
+    </RadioGroup>
+    <Button
+
+        android:id="@+id/Ques2nextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgGroup2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/Next" />
+
+
+</RelativeLayout>
+

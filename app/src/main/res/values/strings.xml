@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="Welcome">Welcome to Kids Riddle Questions.If you are ready,Please Tap on Start</string>
+    <string name="Start">Start</string>
+    <string name="Q1">What has a bed but doesn\'t sleep and a mouth but never eats?</string>
+    <string name="Q1Tag">Question1:</string>
+    <string name="AnsTag">Answer:</string>
+    <string name="Ans1">A Bed</string>
+    <string name="Ans2">A River</string>
+    <string name="Ans3">Train</string>
+    <string name="Ans4">Mountain</string>
+    <string name="Next">Next</string>
+    <string name="Q2">We see it once a year,twice in a week but never in a day.what is it?</string>
+    <string name="Q2Tag">Question2:</string>
+    <string name="Q2Ans1">The Letter E</string>
+    <string name="Q2Ans2">Baby</string>
+    <string name="Q2Ans3">Grass</string>
+    <string name="Q2Ans4">Mountain</string>
+    <string name="Q3">I am a container with no sides and no lid,yet golden treasure lays inside.What am I?</string>
+    <string name="Q3Tag">Question3:</string>
+    <string name="Q3Ans1">An Egg</string>
+    <string name="Q3Ans2">Rat</string>
+    <string name="Q3Ans3">Moon</string>
+    <string name="Q3Ans4">Night</string>
+    <string name="Q4">Which letter of the alphabet contains the most water?</string>
+    <string name="Q4Tag">Question4:</string>
+    <string name="Q4Ans1">The Letter C</string>
+    <string name="Q4Ans2">The Letter E</string>
+    <string name="Q4Ans3">The Letter U</string>
+    <string name="Q4Ans4">The Letter Z</string>
+    <string name="Thankyou">Hope you had fun solving the Riddle.Thank you for using the app.</string>
+    <string name="Yourscore">Your score is:</string>
+    <string name="O">0</string>
+    <string name="Calculate">Click here to find out the score</string>
+    <string name="Share">Share</string>
+</resources>

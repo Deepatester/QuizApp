@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7CCC8"
+    tools:context="com.example.android.quizapp.Finalpage"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Thankyou"
+        android:textSize="25sp"
+        android:layout_margin="25dp"
+        android:id="@+id/finalview"
+        />
+
+
+    <TextView
+        android:id="@+id/finalview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Yourscore"
+        android:textSize="24sp"
+        android:layout_margin="50dp"
+        android:layout_below="@id/finalview"
+                 />
+
+    <TextView
+        android:id="@+id/finalView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/O"
+        android:textSize="25sp"
+        android:layout_margin="50dp"
+        android:layout_below="@+id/finalview"
+        android:layout_toRightOf="@+id/finalview1"
+        />
+
+    <Button
+        android:id="@+id/Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finalview1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+        android:text="@string/Calculate"
+        android:onClick="calculateScore"/>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Calculate"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+        android:text="@string/Share" />
+
+</RelativeLayout>
